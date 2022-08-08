@@ -96,6 +96,11 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
+    else if(message.includes('happy independence day')) {
+        window.open("https://happy-independence-day-by-goutam.blogspot.com/?m=0", "_blank");
+        const finalText = "Happy Independence day to You";
+        speech.text = finalText;
+    }
 
 
     else if(message.includes('open instagram')) {
